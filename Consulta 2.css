@@ -1,0 +1,48 @@
+.cabecera{
+	font-size: 1.5rem;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 98%;
+	transform: translate(-50%, -50%);
+	text-shadow: 1px 1px #000,
+	             2px 2px #000,
+	             3px 3px #000;
+
+}
+
+.fondo{
+	width: 100%;
+	background: linear-gradient(
+		rgba(5,7,12,0.75),
+		rgba(5,7,12,0.75)),url(https://thumbs.dreamstime.com/b/fondo-de-textura-papel-negro-arrugado-219891224.jpg);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tema{
+	font-size: 1.5rem;
+	color: #0000ff;
+	position: absolute;
+	top: 30%;
+	left: 2%;
+	height: 60%;
+}
+
+.parrafo{
+	font-size: 1.5rem;
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	height: 2%;
+	transform: translate(-50%, -50%);
+	text-shadow: 1px 1px #000,
+	             2px 2px #000,
+	             3px 3px #000;
+}
+
